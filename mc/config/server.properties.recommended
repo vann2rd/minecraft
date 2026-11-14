@@ -1,0 +1,5 @@
+# Recommended starting values for a 4 GB RAM / low-power CPU machine.
+# This file is a template. Do not blindly overwrite another server.properties.
+view-distance=5
+simulation-distance=4
+entity-broadcast-range-percentage=75

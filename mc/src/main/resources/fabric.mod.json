@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "vannserveroptimizer",
+  "version": "${version}",
+  "name": "VannServer Optimizer Ultimate",
+  "description": "Loaded entity cleanup, server tick telemetry, and loaded chunk telemetry.",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["dev.vann2rd.vso.VannServerOptimizer"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.0",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
